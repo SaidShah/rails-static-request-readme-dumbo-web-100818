@@ -11,7 +11,7 @@ In this lesson we're going to specifically cover static pages to ensure that you
 
 Before we dive into the code and routing configurations, it helps to know how HTTP works at a high level. Below is the flow that takes place when a user attempts to go to a page on a Rails application:
 
-1. A URL is entered into the browser; this is the HTTP request
+1. A URL is entered into the browser this is the HTTP request
 2. That request is sent to the server where the application's router interprets the request and sends a message to the controller mapped to that route
 3. The controller communicates with the view file mapped to the controller method
 4. The server returns that HTTP response, which contains the view page that can be viewed in the browser
